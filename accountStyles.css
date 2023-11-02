@@ -24,6 +24,12 @@ body {
 h1 {
   margin-left: 1rem;
 }
+.profile {
+   width: 100%;
+   display:flex;
+   justify-content: flex-start;
+   margin-top: 2rem;
+}
 #login {
   margin: 10px 10px 10px 10px;
   background-color: rgb(59, 159, 222);
@@ -38,4 +44,47 @@ h1 {
   background-color: white;
   color: rgb(59, 159, 222);
   margin: 10px 10px 10px 10px;
+}
+#profile-name {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 22px;
+   margin-bottom: 0;
+}
+h4 {
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: -9px;
+}
+#profile-description{
+   margin-bottom: 3px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#profile-image{
+   border-radius: 50%;
+   width: 7rem;
+   height: 7rem;
+   margin-right: 2rem;
+   margin-left: 4rem;
+}
+.profile-actions {
+   background-color: #DCDADA;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   border: none;
+}
+#link-tree {
+   margin-top: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+   color: navy;
+}
+.bio {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin-left: 4rem;
+}
+.profile-info{
+   display: flex;
+   flex-direction: column;
+   align-self: flex-start;
 }
