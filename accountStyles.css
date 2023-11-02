@@ -100,7 +100,7 @@ h4 {
    /* border: 3px solid pink; */
 }
 .image {
-   width: 32%;
+   width: 30%;
    margin: 4px 2px 2px 2px;
 }
 #photos-section {
@@ -108,6 +108,7 @@ h4 {
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: center;
+   width: 100%;
 }
 #profile-stats {
    width: 100%;
@@ -131,4 +132,29 @@ h4 {
    font-family: Arial, Helvetica, sans-serif;
    margin-bottom: -18px;
    font-weight: 700;
+}
+.stories-section {
+   width: 100%;
+   height: 9rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.story {
+   border-radius: 50%;
+   height: 5rem;
+   margin-right: 1rem;
+   margin-left: 1rem;
+   padding: 1px;
+   border: 1px solid rgb(190,167,179);
+}
+.story-piece {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.emoji {
+   margin-top: 0;
+   opacity: 70%;
 }
